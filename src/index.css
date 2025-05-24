@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+body{
+    margin: 20px;
+}
+button{
+    background-color: aqua;
+    color: black;
+    padding: 0.15rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem gray;
+    transition: 0.1s;
+}
+button:hover{
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+}
+button:active{
+    box-shadow: 0.1rem 0.1rem 0.1rem gray;
+}
